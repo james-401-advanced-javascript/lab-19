@@ -1,5 +1,6 @@
 import React from 'react';
 import Converter from './Converter';
+import '../styles/styles.scss';
 
 function App() {
     return (

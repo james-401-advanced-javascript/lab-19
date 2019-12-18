@@ -1,2 +1,17 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
+// $theme-color: red;
+
+html {
+  background: $theme-color;
+  height: 100%;
+}
+.App {
+  box-sizing: border-box;
+  color: rgb(247, 246, 240);
+  font-family: $font;
+
+  input {
+    background-color: $theme-color;
+  }
+}
