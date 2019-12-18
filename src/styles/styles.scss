@@ -1,17 +1,33 @@
 @import "variables";
 @import "mixins";
-// $theme-color: red;
 
 html {
-  background: $theme-color;
+  background: $bg-color;
   height: 100%;
 }
+
 .App {
   box-sizing: border-box;
-  color: rgb(247, 246, 240);
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
   font-family: $font;
 
-  input {
-    background-color: $theme-color;
+  h1, h4, p, .mid-label {
+    @include highlight();
   }
+
+  label {
+    color: rgb(25, 221, 228);
+  }
+}
+
+.converter {
+ @include padContainer(5px, 25px);
+
+ input {
+   align-self: start;
+   margin: 20px;
+ }
 }
