@@ -18,7 +18,7 @@
 ### Deployed App
 
 - [AWS S3](http://jamesdunn-lab-19.s3-website-us-west-2.amazonaws.com/)
-- [AWS Amplify]()
+- [AWS Amplify](https://lab-19.d2nlmx5gei9wto.amplifyapp.com/)
 - [AWS Nelify]()
 
 ### Setup
